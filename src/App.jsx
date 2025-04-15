@@ -1,11 +1,13 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import Companies from "./components/Companies";
-import NewArrivals from "./components/NewArrivals";
-import TopSelling from "./components/TopSelling";
-import BrowseStyle from "./components/BrowseStyle";
-import Testimonials from "./components/Testimonials";
+import Navbar from "./func-components/Navbar";
+import HeroSection from "./func-components/HeroSection";
+import Companies from "./func-components/Companies";
+import NewArrivals from "./func-components/NewArrivals";
+import TopSelling from "./func-components/TopSelling";
+import BrowseStyle from "./func-components/BrowseStyle";
+import Testimonials from "./func-components/Testimonials";
+import NewsLetter from "./func-components/NewsLetter";
+import Footer from "./func-components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <TopSelling />
       <BrowseStyle />
       <Testimonials />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 };
