@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="bg-theme pt-10 w-screen">
+    <section className="bg-theme mt-12 pt-10 w-screen">
       <div className="w-full px-4">
         <h2 className="font-secondary text-[39px] leading-none font-extrabold mb-5">
           FIND CLOTHES THAT MATCHES YOUR STYLE

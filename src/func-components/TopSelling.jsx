@@ -24,7 +24,7 @@ const renderStars = (ratingStr) => {
 const TopSelling = () => {
   return (
     <>
-      <section className="px-5">
+      <section id="topselling" className="px-5">
         <h1 className="mt-12 font-secondary text-4xl mb-10  text-center">
           TOP SELLING
         </h1>
