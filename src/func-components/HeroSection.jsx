@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="bg-theme mt-12 pt-10 w-screen">
-      <div className="w-full px-4">
+      <div className="w-full sm:text-center px-4">
         <h2 className="font-secondary text-[39px] leading-none font-extrabold mb-5">
           FIND CLOTHES THAT MATCHES YOUR STYLE
         </h2>
@@ -14,7 +14,7 @@ const HeroSection = () => {
         </p>
         <button
           href=""
-          className="bg-black text-white px-20 py-5 rounded-full w-full text-center text-[20px] cursor-pointer"
+          className="bg-black text-white px-20 py-5 rounded-full w-full text-center text-[20px] cursor-pointer sm:w-[17rem] "
         >
           Shop Now
         </button>

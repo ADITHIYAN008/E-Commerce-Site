@@ -24,7 +24,7 @@ const renderStars = (ratingStr) => {
 const NewArrivals = () => {
   return (
     <>
-      <section className="px-5">
+      <section id="newArrivals" className="px-5 md:flex md:flex-col">
         <h1 className="mt-12 font-secondary text-4xl mb-10  text-center">
           NEW ARRIVALS
         </h1>
@@ -67,7 +67,7 @@ const NewArrivals = () => {
         </div>
         <button
           href=""
-          className="mt-0 bg-transparent border text-black border-gray-400/40 px-20 py-3 rounded-full w-full text-center text-[16px] cursor-pointer"
+          className="mt-0 bg-transparent border text-black border-gray-400/40 px-20 py-3 rounded-full w-full text-center text-[16px] cursor-pointer md:w-[17rem] md:mx-auto"
         >
           View All
         </button>

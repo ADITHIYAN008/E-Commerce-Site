@@ -6,7 +6,6 @@ import NewArrivals from "./func-components/NewArrivals";
 import TopSelling from "./func-components/TopSelling";
 import BrowseStyle from "./func-components/BrowseStyle";
 import Testimonials from "./func-components/Testimonials";
-import NewsLetter from "./func-components/NewsLetter";
 import Footer from "./func-components/Footer";
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
       <TopSelling />
       <BrowseStyle />
       <Testimonials />
-      <NewsLetter />
       <Footer />
     </div>
   );

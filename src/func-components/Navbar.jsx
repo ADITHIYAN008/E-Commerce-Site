@@ -68,16 +68,20 @@ const Navbar = () => {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-            <a href="#topselling" className="flex w-[78%] justify-between">
+            <a href="#newArrivals" className="flex w-[78%] justify-between">
+              <h2 className="font-medium">New Arrivals</h2>
+              <GoArrowRight />
+            </a>
+            <a href="#topSelling" className="flex w-[78%] justify-between">
               <h2 className="font-medium">Top Selling</h2>
               <GoArrowRight />
             </a>
             <a className="flex w-[78%] justify-between">
-              <h2 className="font-medium">New Arrivals</h2>
+              <h2 className="font-medium">Brands</h2>
               <GoArrowRight />
             </a>
-            <a className="flex w-[78%] justify-between">
-              <h2 className="font-medium">Brands</h2>
+            <a href="#contact" className="flex w-[78%] justify-between">
+              <h2 className="font-medium">Contact</h2>
               <GoArrowRight />
             </a>
           </div>
